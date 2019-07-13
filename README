@@ -1,0 +1,17 @@
+To install:
+
+bash install_bot_framework_ubuntu.sh
+
+You must configure the installation config:
+
+GITHUB_REPO_URL=https://github.com/microsoft/BotFramework-Emulator
+
+NODE_VERSION=12
+
+FILE_TYPE=linux-x86_64.AppImage
+
+INSTALLATION_DIR=/opt/microsoft/bot_framework
+
+NODE_BIN=/usr/bin/node
+
+VERSION=latest  # for specific version use for example: v4.4.2
